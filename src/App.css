@@ -36,3 +36,27 @@
     transform: rotate(360deg);
   }
 }
+
+.container {
+  padding-top: 100px;
+  padding-left: 600px;
+  width: 800px;
+}
+
+.btn__container{
+  display: flex;
+  gap: 10px;
+  margin-bottom: 50px;
+}
+
+.btn {
+  background-color: white;
+  border: 1px solid black;
+  padding: 10px;
+}
+
+.btn:hover, .btn__active {
+  background-color: #282c34;
+  color: white;
+  font-weight: bold;
+}
